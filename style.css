@@ -1,0 +1,52 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    background-color: #100101;
+  }
+  
+  .search-container {
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    position: center;
+  }
+  
+  #country-search {
+    width: 100%;
+    padding: 12px;
+    align-content: center;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .autocomplete-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #0a0101;
+    border-top: none;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    z-index: 99;
+  }
+  
+  .autocomplete-items li {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .autocomplete-items li:hover {
+    background-color:black;
+  }
+  
+  
